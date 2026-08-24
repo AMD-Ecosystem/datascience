@@ -12,6 +12,8 @@ subtrees:
 
 - caption: Components
   entries: 
+  - url: https://rocm.docs.amd.com/projects/rocOpt/en/docs-26.07/
+    title: rocOpt
   - url: https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/
     title: hipDF
   - url: https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03/

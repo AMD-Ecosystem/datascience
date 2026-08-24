@@ -18,10 +18,16 @@ you can build pre- and post-processing applications for AI models, create big da
 science pipelines with minimal effort.
 
 AMD Data Science delivers a cohesive set of libraries that target every stage of the data science lifecycle, from data ingestion and transformation
-to graph analytics, mathematical computation, and vector search. Each component is optimized for GPU performance while maintaining user-friendly
-interfaces compatible with existing data science frameworks and APIs.
+to graph analytics, mathematical computation, vector search, and decision optimization. Each component is optimized for GPU performance while
+maintaining user-friendly interfaces compatible with existing data science frameworks and APIs.
 
 The AMD Data Science toolkit includes the following components:
+
+* **rocOpt** – rocOpt is an open-source, GPU-accelerated engine for decision optimization on AMD Instinct GPUs through the ROCm software stack. It solves large-scale linear programming (LP), mixed-integer linear programming (MILP), quadratic programming (QP), and vehicle routing. 
+
+  .. note::
+    
+    This is the only component available in AMD Data Science 26.07. The other components are available in the 26.03 release. 
 
 * **hipDF** – A GPU-accelerated DataFrame library offering fast and scalable tabular data manipulation, aggregation, and transformation. hipDF enables high-performance preprocessing, feature engineering, and ETL workflows essential for modern data pipelines. It also supports the acceleration of many existing Pandas workflows with little to no code changes.
 
@@ -41,7 +47,7 @@ The AMD Data Science toolkit includes the following components:
 
   The hipGRAPH libraries are in an *early access* state. Running production workloads with these libraries is *not* recommended. 
 
-The AMD Data Science organization is open and hosted at `https://github.com/AMD-Ecosystem/DataScience<https://github.com/AMD-Ecosystem/ROCm-DS>`_.
+The AMD Data Science organization is open and hosted at `https://github.com/AMD-Ecosystem/DataScience <https://github.com/AMD-Ecosystem/ROCm-DS>`__.
 
 AMD Data Science documentation is organized into the following categories:
 
@@ -54,6 +60,7 @@ AMD Data Science documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
+    * `rocOpt <https://advanced-micro-devices-demo--24.com.readthedocs.build/projects/rocopt-internal/en/24/>`__
     * :doc:`hipDF <hipdf:index>`
     * :doc:`hipMM <hipmm:index>`
     * :doc:`hipGRAPH <hipgraph:index>`
