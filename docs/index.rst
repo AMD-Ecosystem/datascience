@@ -12,7 +12,7 @@ The AMD Data Science toolkit is an open-source collection of GPU-accelerated lib
 engineers, and researchers to build high-performance data science applications and machine learning workflows on the ROCm platform.
 Built upon the core ROCm foundation, AMD Data Science provides a unified, efficient, and scalable environment for end-to-end data science acceleration.
 
-AMD Data Science is a fork of the RAPIDS® open-source project from NVIDIA, extended and optimized for AMD GPUs. It enables users to accelerate
+AMD Data Science is a fork of the RAPIDS® open-source project, extended and optimized for AMD GPUs. It enables users to accelerate
 both new and existing data science workloads, executing intensive applications with larger datasets at exceptional speed. With the AMD Data Science toolkit,
 you can build pre- and post-processing applications for AI models, create big data processing workloads, or accelerate existing data
 science pipelines with minimal effort.
