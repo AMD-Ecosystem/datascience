@@ -1,16 +1,16 @@
-# AMD Data Science 26.07 Release notes
+# AMD Data Science 26.07 release notes
 
 AMD is pleased to announce the AMD Data Science toolkit 26.07 release with the
 introduction of **rocOpt** for decision optimization on AMD Instinct GPUs. rocOpt
 is the AMD ROCm port of the open-source GPU-accelerated optimization engine
-(based on NVIDIA cuOpt `25.10.00`, `branch-25.10`). rocOpt solves mixed integer
+(based on cuOpt `25.10.00`, `branch-25.10`). rocOpt solves mixed integer
 linear programming (MILP), linear programming (LP), quadratic programming (QP),
 and vehicle routing problems (VRP) on AMD GPUs.
 
-- [AMD Data Science Release highlights](#amd-data-science-release-highlights)
+- [AMD Data Science release highlights](#amd-data-science-release-highlights)
 - [System requirements](#system-requirements)
 - [AMD Data Science components](#amd-data-science-components)
-- [Detailed component Changelogs](#detailed-component-changelogs)
+- [Detailed component Changelog](#detailed-component-changelogs)
 
 ## AMD Data Science release highlights
 
@@ -24,7 +24,6 @@ time, so a single image runs on either part.
 - The container image builds on ROCm 7.1.1 and runs on the ROCm 7.2.3 runtime, avoiding
 a known code generation issue on gfx942 while providing the updated runtime to enable
 use with other AMD Data Science components.
-- Continued support for Python and C++ APIs, helping developers integrate AMD Data Science into analytics, AI, and GPU-accelerated data science workflows. 
 
 ## System requirements
 
@@ -32,7 +31,7 @@ For the 26.07 release, the AMD Data Science components support the ROCm 7.2.3 re
 
 ## AMD Data Science components
 
-The rocOpt is the only AMD Data Science component in the 26.07 release. Click {fab}`github` to go to the component's source code on GitHub.
+rocOpt is the only AMD Data Science component in the 26.07 release. Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
     <table id="rocm-rn-components" class="table">
@@ -57,7 +56,7 @@ The rocOpt is the only AMD Data Science component in the 26.07 release. Click {f
     </table>
 </div>
 
-## Detailed component Changelogs
+## Detailed component changelog
 
 The following sections describe key changes to AMD Data Science components.
 
@@ -65,8 +64,8 @@ The following sections describe key changes to AMD Data Science components.
 
 #### Supported APIs
 
+- **C++ API** — native API, supporting all features
 - **C API** — LP, MILP, QP
-- **C++ API** — native (unstable, undocumented; use at your own risk)
 - **Python API** — Routing (TSP, VRP, PDP); LP, MILP, and QP via the algebraic
   modeling interface
 - **Server API** — LP, MILP, Routing (TSP, VRP, PDP)
