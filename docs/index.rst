@@ -58,17 +58,6 @@ AMD Data Science documentation is organized into the following categories:
 
     * :ref:`linux-install`
 
-  .. grid-item-card:: Components
-
-    * `rocOpt <https://rocm.docs.amd.com/projects/rocopt-internal/en/amd-integration/>`__
-    * :doc:`hipDF <hipdf:index>`
-    * :doc:`hipMM <hipmm:index>`
-    * :doc:`hipGRAPH <hipgraph:index>`
-    * :doc:`hipRAFT <hipraft:index>`
-    * :doc:`hipVS <hipvs:index>`
-    * `dask-hip <https://rocm.docs.amd.com/projects/dask-hip/en/latest/>`__
-    * `hip-ucxx <https://rocm.docs.amd.com/projects/hip-ucxx/en/latest/>`__
-
   .. grid-item-card:: Related Content
 
     * `Instinct docs <https://instinct.docs.amd.com/latest/>`__
