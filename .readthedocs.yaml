@@ -7,6 +7,10 @@ python:
   install:
     - requirements: docs/sphinx/requirements.txt
 
+redirects:
+  prefix:
+    "/": "https://rocm.docs.amd.com/projects/DataScience-internal"
+
 build:
    os: ubuntu-22.04
    tools:
