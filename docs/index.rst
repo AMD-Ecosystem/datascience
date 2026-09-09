@@ -25,9 +25,9 @@ The AMD Data Science toolkit includes the following components:
 
 .. note::
   
-  rocOpt is the only component available in AMD Data Science 26.07. The other components are available in the 26.03 release. 
+  The AMD Data Science 26.07 release only contains rocOpt. All other components remain unchanged from the 26.03 release. 
 
-* `rocOpt <https://rocm.docs.amd.com/projects/rocopt-internal/en/amd-integration/>`__ – rocOpt is an open-source, GPU-accelerated engine for decision optimization on AMD Instinct GPUs through the ROCm software stack. It solves large-scale linear programming (LP), mixed-integer linear programming (MILP), quadratic programming (QP), and vehicle routing. 
+* `rocOpt <https://rocm.docs.amd.com/projects/rocopt-internal/en/amd-integration/>`__ – rocOpt is an open-source, GPU-accelerated engine for decision optimization on AMD Instinct GPUs through the ROCm software stack. It solves large-scale linear programming (LP), mixed-integer linear programming (MILP), quadratic programming (QP), and vehicle routing problems. 
 
 * :doc:`hipDF <hipdf:index>` – A GPU-accelerated DataFrame library offering fast and scalable tabular data manipulation, aggregation, and transformation. hipDF enables high-performance preprocessing, feature engineering, and ETL workflows essential for modern data pipelines. It also supports the acceleration of many existing Pandas workflows with little to no code changes.
 
@@ -47,7 +47,7 @@ The AMD Data Science toolkit includes the following components:
 
   The hipGRAPH libraries are in an *early access* state. Running production workloads with these libraries is *not* recommended. 
 
-The AMD Data Science organization is open and hosted at `https://github.com/AMD-Ecosystem/DataScience <https://github.com/AMD-Ecosystem/ROCm-DS>`__.
+The AMD Data Science organization is open and hosted at `https://github.com/AMD-Ecosystem/ROCm-DS <https://github.com/AMD-Ecosystem/ROCm-DS>`__.
 
 AMD Data Science documentation is organized into the following categories:
 

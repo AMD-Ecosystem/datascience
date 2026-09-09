@@ -10,7 +10,7 @@ and vehicle routing problems (VRP) on AMD GPUs.
 - [AMD Data Science release highlights](#amd-data-science-release-highlights)
 - [System requirements](#system-requirements)
 - [AMD Data Science components](#amd-data-science-components)
-- [Detailed component Changelog](#detailed-component-changelogs)
+- [Detailed component changelog](#detailed-component-changelog)
 
 ## AMD Data Science release highlights
 
@@ -39,7 +39,7 @@ rocOpt is the only AMD Data Science component in the 26.07 release. Click {fab}`
             <tr>
                 <th>Name</th>
                 <th>Version</th>
-                <th></th>
+                <th>GitHub</th>
             </tr>
         </thead>
         <colgroup>
@@ -48,7 +48,7 @@ rocOpt is the only AMD Data Science component in the 26.07 release. Click {fab}`
         </colgroup>
         <tbody class="rocm-ds-components">
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/rocOpt/en/docs-26.07/">rocOpt</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/rocopt-internal/en/amd-integration/">rocOpt</a></td>
                 <td><a href="#rocOpt-1-0-0">1.0.0</a></td>
                 <td><a href="https://github.com/AMD-Ecosystem/rocOpt"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
@@ -72,9 +72,9 @@ The following sections describe key changes to AMD Data Science components.
 
 #### Build & packaging
 
-- Ported the RAPIDS/cuOpt build onto ROCm-DS: `rapids-cmake`, `rmm`/`hipmm`,
+- Ported the RAPIDS/cuOpt build onto AMD Data Science: `rapids-cmake`, `rmm`/`hipmm`,
   `libraft`/`hipRaft`, `rocthrust`, `libhipcxx`, and the ROCm-DS logger are
-  sourced from the open-source AMD-AIOSS forks and the `rocm-7.2.3` PyPI index.
+  sourced from the open-source AMD-Ecosystem forks and the `rocm-7.2.3` PyPI index.
 - Two-stage container build (`dockerfile.rocm`): compile on ROCm 7.1.1, run on ROCm 7.2.3.
 - MPS parser dependency repinned to `rocopt-mps-parser` (`25.10.*`).
 - Benchmark tooling: multi-GPU dispatcher, an image benchmark build option, and
@@ -85,7 +85,7 @@ The following sections describe key changes to AMD Data Science components.
 
 #### Example notebooks
 
-Prebuilt Jupyter notebooks under [`examples_notebook/`](https://github.com/AMD-Ecosystem/rocOpt/tree/release/rocmds-26.07/examples_notebook) show
+Prebuilt Jupyter notebooks under [`examples_notebook/`](https://github.com/AMD-Ecosystem/rocOpt/tree/release/rocopt-26.07/examples_notebook) show
 end-to-end rocOpt workflows on AMD GPUs and are ready to run in the rocOpt
 container:
 
