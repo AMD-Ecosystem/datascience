@@ -29,19 +29,19 @@ The AMD Data Science toolkit includes the following components:
 
 * `rocOpt <https://rocm.docs.amd.com/projects/rocopt/en/latest/>`__ – rocOpt is an open-source, GPU-accelerated engine for decision optimization on AMD Instinct GPUs through the ROCm software stack. It solves large-scale linear programming (LP), mixed-integer linear programming (MILP), quadratic programming (QP), and vehicle routing problems. 
 
-* :doc:`hipDF <hipdf:index>` – A GPU-accelerated DataFrame library offering fast and scalable tabular data manipulation, aggregation, and transformation. hipDF enables high-performance preprocessing, feature engineering, and ETL workflows essential for modern data pipelines. It also supports the acceleration of many existing Pandas workflows with little to no code changes.
+* `hipDF <https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/>`__ – A GPU-accelerated DataFrame library offering fast and scalable tabular data manipulation, aggregation, and transformation. hipDF enables high-performance preprocessing, feature engineering, and ETL workflows essential for modern data pipelines. It also supports the acceleration of many existing Pandas workflows with little to no code changes.
 
-* :doc:`hipGRAPH <hipgraph:index>` – Leverages GPU acceleration to process and analyze complex graph structures and networks with speed and precision. hipGRAPH supports diverse graph algorithms—such as centrality, traversal, similarity, sampling, and labeling—and integrates seamlessly with hipDF DataFrames across the AMD Data Science ecosystem.
+* `hipGRAPH <https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-26.03/>`__ – Leverages GPU acceleration to process and analyze complex graph structures and networks with speed and precision. hipGRAPH supports diverse graph algorithms—such as centrality, traversal, similarity, sampling, and labeling—and integrates seamlessly with hipDF DataFrames across the AMD Data Science ecosystem.
 
-* :doc:`hipMM <hipmm:index>` – The HIP Memory Manager library provides advanced GPU memory management utilities such as efficient allocation, pooling, and data movement to support the various libraries that form part of the AMD Data Science toolkit. 
+* `hipMM <https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03/>`__ – The HIP Memory Manager library provides advanced GPU memory management utilities such as efficient allocation, pooling, and data movement to support the various libraries that form part of the AMD Data Science toolkit. 
 
-* :doc:`hipRAFT <hipraft:index>` – Provides a foundational layer of reusable GPU-accelerated primitives for data science and machine learning, including clustering, dimensionality reduction, and statistical operations. hipRAFT serves as the computational backbone for higher-level data science and AI applications.
+* `hipRAFT <https://rocm.docs.amd.com/projects/hipRaft/en/docs-26.03/>`__ – Provides a foundational layer of reusable GPU-accelerated primitives for data science and machine learning, including clustering, dimensionality reduction, and statistical operations. hipRAFT serves as the computational backbone for higher-level data science and AI applications.
 
-* :doc:`hipVS <hipvs:index>` – A GPU-accelerated vector search library containing a variety of high-performance approximate and exact nearest-neighbor and clustering algorithms. hipVS integrates seamlessly with DataFrames offered through hipDF, to enable support for a wide variety of data science workloads. 
+* `hipVS <https://rocm.docs.amd.com/projects/hipVS/en/docs-26.03/>`__ – A GPU-accelerated vector search library containing a variety of high-performance approximate and exact nearest-neighbor and clustering algorithms. hipVS integrates seamlessly with DataFrames offered through hipDF, to enable support for a wide variety of data science workloads. 
 
-* `dask-hip <https://rocm.docs.amd.com/projects/dask-hip/en/latest/>`__ – A library for deploying and managing Dask workers on HIP-enabled AMD GPU systems. dask-hip adds distributed execution capabilities for scaling GPU-accelerated data science workloads across one or more AMD GPUs.
+* `dask-hip <https://rocm.docs.amd.com/projects/dask-hip/en/docs-26.03/>`__ – A library for deploying and managing Dask workers on HIP-enabled AMD GPU systems. dask-hip adds distributed execution capabilities for scaling GPU-accelerated data science workloads across one or more AMD GPUs.
 
-* `hip-ucxx <https://rocm.docs.amd.com/projects/hip-ucxx/en/latest/>`__ –  A communication component for distributed GPU workflows on AMD platforms. hip-ucxx complements dask-hip by providing UCXX-based communication support for ROCm environments, helping enable distributed and multi-GPU data science workflows across AMD systems.  
+* `hip-ucxx <https://rocm.docs.amd.com/projects/hip-ucxx/en/docs-26.03/>`__ –  A communication component for distributed GPU workflows on AMD platforms. hip-ucxx complements dask-hip by providing UCXX-based communication support for ROCm environments, helping enable distributed and multi-GPU data science workflows across AMD systems.  
 
 .. note::
 
