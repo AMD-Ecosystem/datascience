@@ -12,7 +12,7 @@ subtrees:
 
 - caption: Components
   entries: 
-  - url: https://rocm.docs.amd.com/projects/rocopt-internal/en/amd-integration/
+  - url: https://rocm.docs.amd.com/projects/rocopt/en/latest/
     title: rocOpt
   - url: https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/
     title: hipDF

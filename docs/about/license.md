@@ -20,14 +20,15 @@ licenses. Please review individual repositories for more information.
 <!-- spellcheck-disable -->
 | Component | License |
 |:---------------------|:-------------------------|
-| [hipDF](https://github.com/ROCm-DS/hipDF) | [Apache 2.0](https://github.com/ROCm-DS/hipDF/blob/release/rocmds-26.03/LICENSE) |
-| [hipMM](https://github.com/ROCm-DS/hipMM/) | [Apache 2.0](https://github.com/ROCm-DS/hipMM/blob/release/rocmds-26.03/LICENSE) |
-| [hipRAFT](https://github.com/ROCm-DS/hipRaft/) | [Apache 2.0](https://github.com/ROCm-DS/hipRaft/blob/release/rocmds-26.03/LICENSE) |
-| [hipVS](https://github.com/ROCm-DS/hipVS/) | [Apache 2.0](https://github.com/ROCm-DS/hipVS/blob/release/rocmds-26.03/LICENSE) |
-| [hipGRAPH](https://github.com/ROCm-DS/hipGRAPH) | [Apache 2.0](https://github.com/ROCm-DS/hipGRAPH/blob/release/1.0.x/LICENSE) |
-| [rocGRAPH](https://github.com/ROCm-DS/rocGRAPH) | [Apache 2.0](https://github.com/ROCm-DS/rocGRAPH/blob/release/1.0.x/LICENSE) |
-| [dask-hip](https://github.com/ROCm-DS/dask-hip/) | [Apache 2.0](https://github.com/ROCm-DS/dask-hip/blob/release/rocmds-26.03/LICENSE) |
-| [hip-ucxx](https://github.com/ROCm-DS/hip-ucxx/) | [BSD-3-Clause license](https://github.com/ROCm-DS/hip-ucxx/blob/release/rocmds-26.03/LICENSE) |
+| [hipDF](https://github.com/AMD-Ecosystem/hipDF) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipDF/blob/release/rocmds-26.03/LICENSE) |
+| [hipMM](https://github.com/AMD-Ecosystem/hipMM/) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipMM/blob/release/rocmds-26.03/LICENSE) |
+| [hipRAFT](https://github.com/AMD-Ecosystem/hipRaft/) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipRaft/blob/release/rocmds-26.03/LICENSE) |
+| [hipVS](https://github.com/AMD-Ecosystem/hipVS/) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipVS/blob/release/rocmds-26.03/LICENSE) |
+| [hipGRAPH](https://github.com/AMD-Ecosystem/hipGRAPH) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipGRAPH/blob/release/1.0.x/LICENSE) |
+| [rocGRAPH](https://github.com/AMD-Ecosystem/rocGRAPH) | [Apache 2.0](https://github.com/AMD-Ecosystem/rocGRAPH/blob/release/1.0.x/LICENSE) |
+| [dask-hip](https://github.com/AMD-Ecosystem/dask-hip/) | [Apache 2.0](https://github.com/AMD-Ecosystem/dask-hip/blob/release/rocmds-26.03/LICENSE) |
+| [hip-ucxx](https://github.com/AMD-Ecosystem/hip-ucxx/) | [BSD-3-Clause license](https://github.com/AMD-Ecosystem/hip-ucxx/blob/release/rocmds-26.03/LICENSE) |
+| [rocOpt](https://github.com/AMD-Ecosystem/rocOpt/blob/release/rocopt-26.07) | [Apache 2.0](https://github.com/AMD-Ecosystem/rocOpt/blob/release/rocopt-26.07/LICENSE) |
 
 ```{note}
 The following additional terms and conditions apply to your use of ROCm-DS documentation.

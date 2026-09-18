@@ -34,7 +34,7 @@ Installation instructions
 
 Each AMD Data Science component must be separately installed as needed. You can find the installation instructions for each component as follows: 
 
-* `rocOpt Installation instructions <https://rocm.docs.amd.com/projects/rocopt-internal/en/amd-integration/install/install_rocopt.html>`__
+* `rocOpt Installation instructions <https://rocm.docs.amd.com/projects/rocopt/en/latest/install/install_rocopt.html>`__
 * `hipDF Installation instructions <https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/install/INSTALL.html>`__
 * `hipMM Installation instructions <https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03/install/INSTALL.html>`__
 * `hipGRAPH Installation instructions <https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/install/Linux_Install_Guide.html>`__
