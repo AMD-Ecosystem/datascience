@@ -3,7 +3,7 @@
 AMD is pleased to announce the AMD Data Science toolkit 26.07 release with the
 introduction of **rocOpt** for decision optimization on AMD Instinct GPUs. rocOpt
 is the AMD ROCm port of the open-source GPU-accelerated optimization engine
-(based on cuOpt `25.10.00`, `branch-25.10`). rocOpt solves mixed integer
+(based on cuOpt `26.02.00`, `branch-26.02`). rocOpt solves mixed integer
 linear programming (MILP), linear programming (LP), quadratic programming (QP),
 and vehicle routing problems (VRP) on AMD GPUs.
 
