@@ -6,9 +6,10 @@ modernized memory-resource interfaces, improved distributed
 GPU communication, and expanded vector-search and machine-learning
 functionality.
 
-.. note::
+```{note}
 
    rocOpt is only available in the AMD Data Science 26.07 release, and supports ROCm 7.2.3.
+```
 
 - [AMD Data Science release highlights](#amd-data-science-release-highlights)
 - [System requirements](#system-requirements)
@@ -83,9 +84,10 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
     </table>
 </div>
 
-.. note::
+```{note}
 
    rocOpt is only available in the AMD Data Science 26.07 release, and supports ROCm 7.2.3.
+```
 
 ## Detailed component changelogs
 
