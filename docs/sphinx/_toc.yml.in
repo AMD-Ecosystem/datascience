@@ -12,21 +12,19 @@ subtrees:
 
 - caption: Components
   entries: 
-  - url: https://rocm.docs.amd.com/projects/rocopt/en/latest/
-    title: rocOpt
-  - url: https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/
+  - url: https://rocm.docs.amd.com/projects/hipDF/en/docs-26.10/
     title: hipDF
-  - url: https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03/
+  - url: https://rocm.docs.amd.com/projects/hipMM/en/docs-26.10/
     title: hipMM
-  - url: https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-26.03/
-    title: hipGRAPH
-  - url: https://rocm.docs.amd.com/projects/hipRaft/en/docs-26.03/
+  - url: https://rocm.docs.amd.com/projects/hipRAFT-internal/en/release-26.09/
     title: hipRAFT
-  - url: https://rocm.docs.amd.com/projects/hipVS/en/docs-26.03/
+  - url: https://rocm.docs.amd.com/projects/hipvs-internal/en/release-26.09/
     title: hipVS
-  - url: https://rocm.docs.amd.com/projects/dask-hip/en/docs-26.03/
+  - url: https://rocm.docs.amd.com/projects/rocopt/en/docs-26.07/
+    title: rocOpt
+  - url: https://rocm.docs.amd.com/projects/dask-hip-internal/en/release-26.09/index.html
     title: dask-hip
-  - url: https://rocm.docs.amd.com/projects/hip-ucxx/en/docs-26.03/
+  - url: https://rocm.docs.amd.com/projects/hip-ucxx-internal/en/release-26.09/
     title: hip-ucxx
 
 - caption: Related content
