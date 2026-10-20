@@ -1,10 +1,14 @@
 # AMD Data Science 26.10 release notes
 
 AMD Data Science 26.10 updates the toolkit to ROCm 10.0.0 and brings the
-core libraries to their RAPIDS 26.06 upstream baselines. The release adds broader
-AMD GPU coverage, modernized memory-resource interfaces, improved distributed
+core libraries to their RAPIDS 26.06 upstream baselines. The release adds
+modernized memory-resource interfaces, improved distributed
 GPU communication, and expanded vector-search and machine-learning
 functionality.
+
+.. note::
+
+   rocOpt is only available in the AMD Data Science 26.07 release, and supports ROCm 7.2.3.
 
 - [AMD Data Science release highlights](#amd-data-science-release-highlights)
 - [System requirements](#system-requirements)
@@ -17,13 +21,14 @@ functionality.
 The 26.10 release includes the following major updates and highlights:
 
 * Support for upstream RAPIDS 26.06 components. 
+* Supports AMD Instinct GPUs MI355X (GPU target gfx950), MI325X / MI300X (GPU target gfx942), MI250 / MI210 (GPU target gfx90a)
 * ROCm 10.0.0 support across updated components. 
 * Support for Python 3.11, 3.12, and 3.13.
 * Improved hipBLASLt fallback behavior and numerical stability for randomized SVD on `gfx942` in hipRAFT.
 
 ## System requirements
 
-For the 26.10 release, the AMD Data Science components support the ROCm 10.0.0 release. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
+Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
 
 ## AMD Data Science components
 
@@ -77,6 +82,10 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
         </tbody>
     </table>
 </div>
+
+.. note::
+
+   rocOpt is only available in the AMD Data Science 26.07 release, and supports ROCm 7.2.3.
 
 ## Detailed component changelogs
 
