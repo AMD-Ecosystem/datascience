@@ -1,0 +1,40 @@
+root: index.md
+subtrees:
+- entries:
+  - file: about/release-notes.md
+    title: Release notes
+  - file: about/compatibility-matrix.md
+    title: Compatibility matrix
+
+- caption: Install
+  entries:
+  - file: install/install.rst
+
+- caption: Components
+  entries: 
+  - url: https://rocm.docs.amd.com/projects/hipdf/en/docs-26.10/
+    title: hipDF
+  - url: https://rocm.docs.amd.com/projects/hipMM/en/docs-26.10/
+    title: hipMM
+  - url: https://rocm.docs.amd.com/projects/hipRAFT/en/release-26.10/
+    title: hipRAFT
+  - url: https://rocm.docs.amd.com/projects/hipvs/en/release-26.10/
+    title: hipVS
+  - url: https://rocm.docs.amd.com/projects/rocopt/en/latest/
+    title: rocOpt
+  - url: https://rocm.docs.amd.com/projects/dask-hip/en/release-26.10/
+    title: dask-hip
+  - url: https://rocm.docs.amd.com/projects/hip-ucxx/en/release-26.10/
+    title: hip-ucxx
+
+- caption: Related content
+  entries:
+  - url: https://rocm.blogs.amd.com/data-science.html
+    title: Data Science blogs
+  - file: contribute/contributing.rst
+    title: Contributing to AMD Data Science
+
+- caption: About
+  entries:
+  - file: about/license.md
+    title: Licenses
