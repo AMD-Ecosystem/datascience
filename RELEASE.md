@@ -8,7 +8,7 @@ functionality.
 
 ```{note}
 
-   rocOpt is only available in the AMD Data Science 26.07 release, and supports ROCm 7.2.3.
+   rocOpt is not updated with the 26.10 release. For more information, see the {doc}`Compatibility matrix <compatibility-matrix>`.
 ```
 
 - [AMD Data Science release highlights](#amd-data-science-release-highlights)
@@ -77,7 +77,7 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hip-ucxx/en/docs-26.10/">hip-ucxx</a></td>
-                <td>0.1.0&nbsp;&Rightarrow;&nbsp;<a href="#hip-ucxx-2-0-0">0.2.0</a></td>
+                <td>0.1.0&nbsp;&Rightarrow;&nbsp;<a href="#hip-ucxx-0-2-0">0.2.0</a></td>
                 <td><a href="https://github.com/AMD-Ecosystem/hip-ucxx"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
@@ -86,7 +86,7 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
 
 ```{note}
 
-   rocOpt is only available in the AMD Data Science 26.07 release, and supports ROCm 7.2.3.
+   rocOpt is not updated with the 26.10 release. For more information, see the {doc}`Compatibility matrix <compatibility-matrix>`.
 ```
 
 ## Detailed component changelogs
@@ -116,6 +116,18 @@ the Python bindings, and provides AMD PyPI packages for both the C++ library
 and Python API. Applications using older `device_memory_resource` APIs might
 need migration updates.
 
+### hipRAFT 2.0.0
+
+hipRAFT upgrades to the RAFT 26.06 baseline and adds PCA, truncated SVD, and
+sparse randomized SVD primitives. It also exposes NumPy serialization helpers
+and adopts CCCL-based memory-resource handling, including support for tracking
+resources.
+
+This release improves hipBLASLt fallback behavior, numerical stability for
+randomized SVD on `gfx942`, `gfx90a` builds, histogram initialization, and
+stream synchronization. Python packages are built with `scikit-build-core`
+and are published for Python 3.11, 3.12, and 3.13.
+
 ### hipVS 2.0.0
 
 hipVS upgrades from cuVS 25.10 to cuVS 26.06 and makes multi-GPU, multi-node,
@@ -140,21 +152,6 @@ more useful on AMD GPUs:
 The release also hardens index deserialization against malicious inputs and
 improves correctness for wave32, RDNA3 CK distance paths, sparse metrics,
 multi-GPU JIT/UDF execution, and graph-search workloads.
-
-Known limitations: INT8 IVF-PQ coarse search is unsupported and FP64
-brute-force search uses the tiled, non-fused kNN path.
-
-### hipRAFT 2.0.0
-
-hipRAFT upgrades to the RAFT 26.06 baseline and adds PCA, truncated SVD, and
-sparse randomized SVD primitives. It also exposes NumPy serialization helpers
-and adopts CCCL-based memory-resource handling, including support for tracking
-resources.
-
-This release improves hipBLASLt fallback behavior, numerical stability for
-randomized SVD on `gfx942`, `gfx90a` builds, histogram initialization, and
-stream synchronization. Python packages are built with `scikit-build-core`
-and are published for Python 3.11, 3.12, and 3.13.
 
 ### dask-hip 2.0.0
 
@@ -183,7 +180,8 @@ also updates the AMD PyPI packages and build requirements for ROCm 10.0.0.
 
 - Use isolated AMD Data Science environments when installing the AMD PyPI
   packages.
-- hipVS INT8 IVF-PQ coarse search is not supported.
+- hipVS INT8 IVF-PQ coarse search is unsupported and FP64 brute-force search
+  uses the tiled, non-fused kNN path.
 - hipDF has known limitations around some `cudf.pandas` configurations under
   heavy XNACK memory pressure.
 - Some advanced hipRAFT distributed and randomized-SVD APIs remain
