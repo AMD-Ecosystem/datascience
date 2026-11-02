@@ -41,7 +41,7 @@ The AMD Data Science toolkit includes the following components:
 
   The hipGRAPH libraries are in an *early access* state. Running production workloads with these libraries is *not* recommended. 
 
-The AMD Data Science organization is open and hosted at `https://github.com/AMD-Ecosystem/DataScience <https://github.com/AMD-Ecosystem/ROCm-DS>`_.
+The AMD Data Science organization is open and hosted at `https://github.com/AMD-Ecosystem/DataScience <https://github.com/AMD-Ecosystem/datascience>`_.
 
 AMD Data Science documentation is organized into the following categories:
 
@@ -66,4 +66,4 @@ AMD Data Science documentation is organized into the following categories:
 
     * `Instinct docs <https://instinct.docs.amd.com/latest/>`__
     * `AMD Data Science blogs <https://rocm.blogs.amd.com/data-science.html>`__
-    * :ref:`contributing-to-rocm-ds`
+    * :ref:`contributing-to-datascience`
