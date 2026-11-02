@@ -39,5 +39,6 @@ Each AMD Data Science component must be separately installed as needed. You can 
 .. note::
     
     rocOpt only supports the ROCm 7.2.3 release, and works with other components from the Data Science 26.03 release.
+    
 * `dask-hip Installation instructions <https://rocm.docs.amd.com/projects/dask-hip/en/docs-26.10/install/install.html>`__
 * `hip-ucxx Installation instructions <https://rocm.docs.amd.com/projects/hip-ucxx/en/docs-26.10/install/install.html>`__

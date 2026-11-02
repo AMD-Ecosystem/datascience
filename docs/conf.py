@@ -29,8 +29,16 @@ all_article_info_author = ""
 html_theme = "rocm_docs_theme"
 html_theme_options = {
     "flavor": "rocm-ds",
-    # Add any additional theme options here
+    "repository_url": "https://github.com/AMD-Ecosystem/datascience",
+    "use_repository_button": True,
+    "use_issues_button": True,
+    "use_download_button": True,
 }
+
+# Generate llms.txt and llms-full.txt (https://llmstxt.org/) for LLM-assisted
+# access to the documentation.
+rocm_docs_generate_llms = True
+
 extensions = ["rocm_docs"]
 
 # Table of contents
