@@ -1,0 +1,21 @@
+[submodule "hipDF"]
+	path = hipDF
+	url = git@github.com:AMD-Ecosystem/hipDF.git
+[submodule "hipMM"]
+	path = hipMM
+	url = git@github.com:AMD-Ecosystem/hipMM.git
+[submodule "hipRaft"]
+	path = hipRaft
+	url = git@github.com:AMD-Ecosystem/hipRaft.git
+[submodule "hipVS"]
+	path = hipVS
+	url = git@github.com:AMD-Ecosystem/hipVS.git
+[submodule "rocOpt"]
+	path = rocOpt
+	url = git@github.com:AMD-Ecosystem/rocOpt.git
+[submodule "dask-hip"]
+	path = dask-hip
+	url = git@github.com:AMD-Ecosystem/dask-hip.git
+[submodule "hip-ucxx"]
+	path = hip-ucxx
+	url = git@github.com:AMD-Ecosystem/hip-ucxx.git
