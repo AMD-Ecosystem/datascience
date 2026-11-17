@@ -16,15 +16,15 @@ subtrees:
     title: hipDF
   - url: https://rocm.docs.amd.com/projects/hipMM/en/docs-26.10/
     title: hipMM
-  - url: https://rocm.docs.amd.com/projects/hipRAFT/en/release-26.10/
+  - url: https://rocm.docs.amd.com/projects/hipRaft/en/docs-26.10/
     title: hipRAFT
-  - url: https://rocm.docs.amd.com/projects/hipvs/en/release-26.10/
+  - url: https://rocm.docs.amd.com/projects/hipVS/en/docs-26.10/
     title: hipVS
   - url: https://rocm.docs.amd.com/projects/rocopt/en/latest/
     title: rocOpt
-  - url: https://rocm.docs.amd.com/projects/dask-hip/en/release-26.10/
+  - url: https://rocm.docs.amd.com/projects/dask-hip/en/docs-26.10/
     title: dask-hip
-  - url: https://rocm.docs.amd.com/projects/hip-ucxx/en/release-26.10/
+  - url: https://rocm.docs.amd.com/projects/hip-ucxx/en/docs-26.10/
     title: hip-ucxx
 
 - caption: Related content
