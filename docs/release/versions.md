@@ -8,7 +8,7 @@
 
 | Version | Release date |
 | ------- | ------------ |
-| [26.10](https://rocm.docs.amd.com/projects/datascience/en/docs-26.10/) | November 6, 2026 |
+| [26.10](https://rocm.docs.amd.com/projects/datascience/en/docs-26.10/) | November 18, 2026 |
 | [26.07](https://rocm.docs.amd.com/projects/datascience/en/docs-26.07/) | October 8, 2026 |
 | [26.03](https://rocm.docs.amd.com/projects/datascience/en/docs-26.03/) | July 14, 2026 |
 | [25.10](https://rocm.docs.amd.com/projects/datascience/en/docs-25.10/) | November 13, 2025 |
