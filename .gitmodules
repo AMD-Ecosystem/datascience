@@ -1,0 +1,35 @@
+[submodule "hipDF"]
+	path = hipDF
+	url = https://github.com/AMD-ecosystem/hipDF.git
+	branch = release/26.10
+	shallow = true
+[submodule "hipMM"]
+	path = hipMM
+	url = https://github.com/AMD-ecosystem/hipMM.git
+	branch = release/26.10
+	shallow = true
+[submodule "hipRaft"]
+	path = hipRaft
+	url = https://github.com/AMD-ecosystem/hipRaft.git
+	branch = release/26.10
+	shallow = true
+[submodule "hipVS"]
+	path = hipVS
+	url = https://github.com/AMD-ecosystem/hipVS.git
+	branch = release/26.10
+	shallow = true
+[submodule "rocOpt"]
+	path = rocOpt
+	url = https://github.com/AMD-ecosystem/rocOpt.git
+	branch = release/rocopt-26.07
+	shallow = true
+[submodule "dask-hip"]
+	path = dask-hip
+	url = https://github.com/AMD-ecosystem/dask-hip.git
+	branch = release/26.10
+	shallow = true
+[submodule "hip-ucxx"]
+	path = hip-ucxx
+	url = https://github.com/AMD-ecosystem/hip-ucxx.git
+	branch = release/26.10
+	shallow = true

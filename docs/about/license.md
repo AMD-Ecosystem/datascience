@@ -20,13 +20,13 @@ licenses. Please review individual repositories for more information.
 <!-- spellcheck-disable -->
 | Component | License |
 |:---------------------|:-------------------------|
-| [hipDF](https://github.com/AMD-Ecosystem/hipDF) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipDF/blob/release/rocmds-26.10/LICENSE) |
-| [hipMM](https://github.com/AMD-Ecosystem/hipMM/) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipMM/blob/release/rocmds-26.10/LICENSE) |
-| [hipRAFT](https://github.com/AMD-Ecosystem/hipRaft/) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipRaft/blob/release/rocmds-26.10/LICENSE) |
-| [hipVS](https://github.com/AMD-Ecosystem/hipVS/) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipVS/blob/release/rocmds-26.10/LICENSE) |
+| [hipDF](https://github.com/AMD-Ecosystem/hipDF) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipDF/blob/release/26.10/LICENSE) |
+| [hipMM](https://github.com/AMD-Ecosystem/hipMM/) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipMM/blob/release/26.10/LICENSE) |
+| [hipRAFT](https://github.com/AMD-Ecosystem/hipRaft/) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipRaft/blob/release/26.10/LICENSE) |
+| [hipVS](https://github.com/AMD-Ecosystem/hipVS/) | [Apache 2.0](https://github.com/AMD-Ecosystem/hipVS/blob/release/26.10/LICENSE) |
 | [rocOpt](https://github.com/AMD-Ecosystem/rocOpt/) | [Apache 2.0](https://github.com/AMD-Ecosystem/rocOpt/blob/release/rocopt-26.07/LICENSE) |
-| [dask-hip](https://github.com/AMD-Ecosystem/dask-hip/) | [Apache 2.0](https://github.com/AMD-Ecosystem/dask-hip/blob/release/rocmds-26.10/LICENSE) |
-| [hip-ucxx](https://github.com/AMD-Ecosystem/hip-ucxx/) | [BSD-3-Clause license](https://github.com/AMD-Ecosystem/hip-ucxx/blob/release/rocmds-26.10/LICENSE) |
+| [dask-hip](https://github.com/AMD-Ecosystem/dask-hip/) | [Apache 2.0](https://github.com/AMD-Ecosystem/dask-hip/blob/release/26.10/LICENSE) |
+| [hip-ucxx](https://github.com/AMD-Ecosystem/hip-ucxx/) | [BSD-3-Clause license](https://github.com/AMD-Ecosystem/hip-ucxx/blob/release/26.10/LICENSE) |
 
 ```{note}
 The following additional terms and conditions apply to your use of AMD Data Science documentation.
